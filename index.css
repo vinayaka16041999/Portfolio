@@ -345,7 +345,7 @@ body{
     display:flex;
     flex-direction:row !important;
     display:block !important;
-    text-align:center !important;
+    text-align:left !important;
     }
     .left-container .contact-me{
     display: block !important;
