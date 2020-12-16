@@ -358,6 +358,7 @@ body{
     .contact-left-section{
         display: flex;
         align-items: left !important;
+        border:none;
     }
     .right-container,.left-container{
         font-size: 50% !important;
