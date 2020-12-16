@@ -1,47 +1,3 @@
-
-/* html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-HTML5 display-role reset for older browsers
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 ------------------------------------------------------------------------------------------------------------------------------ */
 body{
     background-color: #263238;
@@ -63,8 +19,15 @@ body{
     background-color:rgba(0,0,0,0.6);
     color:white !important;
 }
+.nav-item a:active{
+    color:red !important;
+}
 .navbar{
     background-color:rgb(230, 230, 230) !important;
+    border-bottom: 1px soild rgba(92, 92, 92, 0.568);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow:2px 0px 10px black;
 }
 .name{
     font-weight:700;
@@ -79,6 +42,7 @@ body{
     height:500px;
     /* border-radius: 20px;; */
 }
+/* ------------------------------------------------------------------------------------------------------------------------ */
 .home-templates-arrow-1{
     width: 100px !important;
     margin: 0px auto !important;
@@ -90,6 +54,7 @@ body{
 .arrow-1{
     background-color: rgb(238, 238, 238);
 }
+
 .home-templates-arrow-2{
     width: 100px !important;
     margin: 0px auto !important;
@@ -102,6 +67,44 @@ body{
     background-color:rgb(26, 26, 26);
     background: linear-gradient(90deg, rgba(26,26,26,1) 44%, rgba(41,41,41,1) 65%);
 }
+
+.home-templates-arrow-3{
+    width: 100px !important;
+    margin: 0px auto !important;
+    height: 0 !important;
+    border-style: solid !important;
+    border-width: 40px 100px 0 100px !important;
+    border-color: rgb(238, 238, 238) transparent transparent transparent !important;
+}
+.arrow-3{
+    background-color:rgb(59, 59, 59);
+}
+
+.home-templates-arrow-4{
+    width: 100px !important;
+    margin: 0px auto !important;
+    height: 0 !important;
+    border-style: solid !important;
+    border-width: 40px 100px 0 100px !important;
+    border-color: rgb(59, 59, 59) transparent transparent transparent !important;
+}
+.arrow-4{
+    background-color:rgb(256, 256, 256);
+}
+
+.home-templates-arrow-5{
+    width: 100px !important;
+    margin: 0px auto !important;
+    height: 0 !important;
+    border-style: solid !important;
+    border-width: 40px 100px 0 100px !important;
+    border-color: rgb(26, 26, 26) transparent transparent transparent !important;
+}
+.arrow-5{
+    background-color: rgb(238, 238, 238);
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
 .certifications{
     background-color:rgb(26, 26, 26);
     background: linear-gradient(90deg, rgba(26,26,26,1) 44%, rgba(41,41,41,1) 65%);
@@ -118,42 +121,48 @@ body{
 }
 .carousel{
     height:635px;
-    width:1175px;
-    margin-left: 170px;
-    margin-top: 35px;
+    width:79%;
+    margin-top:35px !important;
+    margin-left: auto;
+    margin-right: auto;
 }
 .carousel-item img{
-    height:640px;
-    width:800px;
+    /* height:640px; */
+    width:100%;
     border-radius:10px;
 }
 .carousel-inner{
     border-radius: 10px;
 }
 .carousel-control-prev-icon{
-    margin-left:-300px;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 
 }
 .carousel-control-next-icon{
-    margin-right:-300px;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 .carousel-indicators{
-    margin-bottom:-34px;
 }
 .heading-edu{
     background-color: rgb(238, 238, 238);
     height:600px;
-    /* border-radius: 20px;; */
 }
 .heading-edu .card-body{
     background-color:#495057;
     color:white;
+    border-radius: 10px;
+    box-shadow:2px 2px 10px black;
+}
+.card{
+    border:none;
+    background:none;
 }
 .heading-edu .card-header,.heading-edu .card-footer{
     background-color:#343a40 ;
     color:white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+
 }
 .heading-edu .text-muted{
     color:rgb(182, 182, 182) !important;
@@ -161,11 +170,11 @@ body{
 .heading-edu li{
     font-weight:300;
 }
-.card{
+.education .card{
     width:500px;
     margin-bottom:50px !important;
     box-shadow: 5px 5px 10px grey;
-    border-radius:10px;
+    border-radius:120px !important;
 }
 .display-4{
     font-weight: 500;
@@ -189,34 +198,34 @@ body{
     height:1680px;
     background-color:rgb(59, 59, 59);
 }
-.home-templates-arrow-3{
-    width: 100px !important;
-    margin: 0px auto !important;
-    height: 0 !important;
-    border-style: solid !important;
-    border-width: 40px 100px 0 100px !important;
-    border-color: rgb(238, 238, 238) transparent transparent transparent !important;
-}
-.arrow-3{
-    background-color:rgb(59, 59, 59);
-}
 
-  .internships .card{
+
+  .internships .card-body{
     color:#081c15;
-    background-color:rgb(228, 228, 228);
-    box-shadow: 3px 3px 10px silver;
-    width:1000px;
+    background-color:rgb(226, 226, 226);
+    box-shadow: 2px 2px 7px white;
+    width:70rem;
+    border-radius: 10px;
+    margin-top: 3px;
   }
+
   .internships .card-header{
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
+    /* border: 2px solid black; */
     text-align: center;
-    font-weight: 900;
+    font-weight: 700;
+    font-size:140%;
+    border-radius: 10px;
+    background-color:rgb(240, 240, 240);
+    box-shadow: 2px 2px 7px white;
   }
+
   .internships .card-title{
     border-bottom: 1px dotted black;
     text-align: center; 
     padding-bottom: 15px;
     font-weight:500;
+    border
   }
   .internships .card-text{
     font-weight:bold;
@@ -231,17 +240,7 @@ body{
       border:2px solid green;
       font-weight:bold;
   }
-  .home-templates-arrow-4{
-    width: 100px !important;
-    margin: 0px auto !important;
-    height: 0 !important;
-    border-style: solid !important;
-    border-width: 40px 100px 0 100px !important;
-    border-color: rgb(59, 59, 59) transparent transparent transparent !important;
-}
-.arrow-4{
-    background-color:rgb(256, 256, 256);
-}
+
 .contact{
     background-color:white;
     padding-top:30px;
@@ -258,9 +257,6 @@ body{
 .left-container{
     height:200px !important;
 }
-.contact-right-section{
-    border-right:1px solid black;
-}
 
 .right-container{
     height:200px !important;
@@ -274,6 +270,7 @@ body{
 footer{
     width:100%;
     margin-left:0 !important;
+    
 }
 footer.page-footer .footer-copyright{
     overflow:hidden;
@@ -284,17 +281,7 @@ footer.page-footer .footer-copyright{
 
 
 
-.home-templates-arrow-5{
-    width: 100px !important;
-    margin: 0px auto !important;
-    height: 0 !important;
-    border-style: solid !important;
-    border-width: 40px 100px 0 100px !important;
-    border-color: rgb(26, 26, 26) transparent transparent transparent !important;
-}
-.arrow-5{
-    background-color: rgb(238, 238, 238);
-}
+
 
 
 
@@ -391,10 +378,18 @@ footer.page-footer .footer-copyright{
 }
 .social-icons a.kaggle:hover
 {
-  color:#00aced;
+  color:#05aae6;
   background-color:white;
+  text-shadow:1px 1px black;
 }
 
+.footer-site{
+    background:#26272b;
+}
 
-
+@media only screen and (max-width:600px){
+    .internships .card-body{
+        width:25rem;
+    }
+}
 
