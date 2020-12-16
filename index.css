@@ -230,7 +230,7 @@ body{
         transform: translateY(-50px);
     }
     .heading-edu .card-header,.heading-edu .card-footer,.heading-edu .card-body{
-        width:430px !important;
+        width:360px !important;
     }
     #education col{
         display: flex !important;
