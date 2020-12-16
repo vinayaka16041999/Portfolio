@@ -357,7 +357,7 @@ body{
     }
     .contact-left-section{
         display: flex;
-        align-items: left !important;
+        align-items: center !important;
         border:none !important;
     }
     .right-container,.left-container{
