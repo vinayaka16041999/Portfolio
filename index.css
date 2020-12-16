@@ -212,6 +212,16 @@ body{
     }
     
 }
+@media only screen and (min-width:600px) and (max-width:800px){
+    .#education{
+        height:500px;
+        transform: translateY(-50px);
+    }
+    .heading-edu .card-header,.heading-edu .card-footer{
+        width:500px;
+    }
+    
+}
 .display-4{
     font-weight: 500;
 }
@@ -278,6 +288,12 @@ body{
   }
 
   @media only screen and (max-width:600px){
+      .internships .card-body{
+          width: 500px !important;
+          margin-bottom: 50px;;
+      }
+  } 
+   @media only screen and (min-width:600px) and (max-width:800px){
       .internships .card-body{
           width: 500px !important;
           margin-bottom: 50px;;
