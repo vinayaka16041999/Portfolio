@@ -127,9 +127,20 @@ body{
     margin-top:35px !important;
     margin-left: auto;
     margin-right: auto;
-    transform: scaleX(0.98) translateX(12px) translateY(40px);
+    transform: scaleX(0.98) scaleY(0.7) translateX(10px) translateY(-60px);
    
 }
+.carousel-control-prev-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    transform: translateY(100px) translateX(-130px);
+}
+.carousel-control-next-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    transform: translateY(100px) translateX(130px);
+}
+.carousel-indicators{
+    transform: translateY(320px)
+} 
 @media only screen and (max-width:600px){
     .certifications{
         height:600px;
@@ -565,12 +576,13 @@ footer.page-footer .footer-copyright{
     background:#26272b;
 }
 
-@media only screen and (max-width:600px){
+@media(max-width:600px){
     .internships .card-body{
         width:23rem;
     }
     #skills{
-        height:400px;
+        height:400px !important;
+        
     }
     .heading{
         height:300px;
