@@ -358,6 +358,9 @@ body{
         display: flex;
         align-items: center !important;
     }
+    .right-container,.left-container{
+        font-size: 50% !important;
+    }
 }
 .flex-center a{
     margin
