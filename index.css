@@ -218,7 +218,7 @@ body{
         transform: translateY(-50px);
     }
     .heading-edu .card-header,.heading-edu .card-footer{
-        width:500px;
+        width:300px;
     }
     
 }
