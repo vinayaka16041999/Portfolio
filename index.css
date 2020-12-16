@@ -224,13 +224,27 @@ body{
     box-shadow: 5px 5px 10px grey;
     border-radius:120px !important;
 } */
+@media only screen and (max-width:520px){
+    .#education{
+        height:500px !important;
+        transform: translateY(-50px);
+    }
+    .heading-edu .card-header,.heading-edu .card-footer,.heading-edu .card-body{
+        width:430px !important;
+    }
+    #education col{
+        display: flex !important;
+        justify-content: center !important;
+    }
+    
+}
 @media only screen and (max-width:600px){
     .#education{
         height:500px !important;
         transform: translateY(-50px);
     }
-    .heading-edu .card-header,.heading-edu .card-footer{
-        width:500px;
+    .heading-edu .card-header,.heading-edu .card-footer,.heading-edu .card-body{
+        width:500px !important;
     }
     
 }
@@ -239,7 +253,7 @@ body{
         height:500px;
         transform: translateY(-50px);
     }
-    .heading-edu .card-header,.heading-edu .card-footer{
+    .heading-edu .card-header,.heading-edu .card-footer,.heading-edu .card-body{
         width:500px !important;
     }
     
@@ -316,8 +330,8 @@ body{
       }
   } 
    @media only screen and (min-width:601px) and (max-width:800px){
-      .internships .card-body{
-          width: 500px !important;
+      .internships .card-body,.internships .card-header{
+          width: 400px !important;
           margin-bottom: 50px;;
       }
   }
