@@ -218,12 +218,12 @@ body{
 .heading-edu li{
     font-weight:300;
 }
-.education .card{
+/* .education .card{
     width:500px;
     margin-bottom:50px !important;
     box-shadow: 5px 5px 10px grey;
     border-radius:120px !important;
-}
+} */
 @media only screen and (max-width:600px){
     .#education{
         height:500px !important;
