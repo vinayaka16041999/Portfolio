@@ -204,7 +204,7 @@ body{
 }
 @media only screen and (max-width:600px){
     .#education{
-        height:500px;
+        height:500px !important;
         transform: translateY(-50px);
     }
     .heading-edu .card-header,.heading-edu .card-footer{
@@ -218,7 +218,7 @@ body{
         transform: translateY(-50px);
     }
     .heading-edu .card-header,.heading-edu .card-footer{
-        width:300px;
+        width:300px !important;
     }
     
 }
