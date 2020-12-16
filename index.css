@@ -8,7 +8,8 @@ body{
     height:800px;
     background-repeat: no-repeat;
     background-size:100% 100%;
-    margin-top:25px;
+    margin-top:30px;
+    
 }
 .nav-bar{
     margin-left:0px;
@@ -50,6 +51,7 @@ body{
     border-style: solid !important;
     border-width: 40px 100px 0 100px !important;
     border-color: black transparent transparent transparent !important;
+    border-top:none;
 }
 .arrow-1{
     background-color: rgb(238, 238, 238);
@@ -114,7 +116,7 @@ body{
 .certifications-carousel{
     background-image: url(img/laptop.jpg);
     width:100%;
-    height:48rem;
+    height:780px;
     background-repeat: no-repeat;
     background-size:100% 100%;
     margin-top:25px;
@@ -125,13 +127,38 @@ body{
     margin-top:35px !important;
     margin-left: auto;
     margin-right: auto;
+    transform: scaleX(0.98) translateX(12px) translateY(40px);
+   
 }
-.carousel-item img{
-    /* height:640px; */
+@media only screen and (max-width:600px){
+    .certifications{
+        height:600px;
+    }
+    .certifications-carousel{
+        height:400px;
+    }
+    .carousel{
+        transform: scaleX(0.96) scaleY(0.95) translateX(5px) translateY(10px);
+    }
+    .carousel-control-prev-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+        transform: translateY(-140px) translateX(-70px);
+    }
+    .carousel-control-next-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+        transform: translateY(-140px) translateX(70px);
+    }
+    .carousel-indicators{
+        transform: translateY(-180px)
+    } 
+}
+/.carousel-item img{
+    
     width:100%;
     border-radius:10px;
-}
-.carousel-inner{
+} 
+
+ .carousel-inner{
     border-radius: 10px;
 }
 .carousel-control-prev-icon{
@@ -141,8 +168,7 @@ body{
 .carousel-control-next-icon{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
-.carousel-indicators{
-}
+
 .heading-edu{
     background-color: rgb(238, 238, 238);
     height:600px;
@@ -175,6 +201,16 @@ body{
     margin-bottom:50px !important;
     box-shadow: 5px 5px 10px grey;
     border-radius:120px !important;
+}
+@media only screen and (max-width:600px){
+    .#education{
+        height:500px;
+        transform: translateY(-50px);
+    }
+    .heading-edu .card-header,.heading-edu .card-footer{
+        width:500px;
+    }
+    
 }
 .display-4{
     font-weight: 500;
@@ -241,6 +277,13 @@ body{
       font-weight:bold;
   }
 
+  @media only screen and (max-width:600px){
+      .internships .card-body{
+          width: 500px !important;
+          margin-bottom: 50px;;
+      }
+  }
+
 .contact{
     background-color:white;
     padding-top:30px;
@@ -261,6 +304,27 @@ body{
 .right-container{
     height:200px !important;
 }
+@media only screen and (max-width:600px){
+   .right-container{
+       display:flex;
+       flex-direction:row !important;
+       display:block !important;
+       text-align:left !important;
+   }
+   .navbar{
+       padding: 6px 0px !important;
+   }
+   .heading-contact{
+       height:400px;
+   }
+   .right-container b{
+       display: block !important;
+   }
+   .right-container p{
+       width:200px !important;
+       
+   }
+}
 .flex-center a{
     margin
 }
@@ -278,11 +342,6 @@ footer.page-footer .footer-copyright{
     background-color: rgba(0,0,0,0.2);
     width:100%;
 }
-
-
-
-
-
 
 
 .site-footer
@@ -391,5 +450,12 @@ footer.page-footer .footer-copyright{
     .internships .card-body{
         width:23rem;
     }
+    #skills{
+        height:400px;
+    }
+    .heading{
+        height:300px;
+    }
+    
 }
 
