@@ -389,6 +389,10 @@ footer.page-footer .footer-copyright{
     .site-footer .social-icons{
         text-align: center;
     }
+    .copyright-text{
+        font-size: 10px;
+        text-align: center;
+    }
 }
 /* footer Section End */
 
