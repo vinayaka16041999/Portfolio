@@ -157,7 +157,7 @@ html, body {
 }
 @media(max-width:400px){
     .row-certifications{
-        height:200px;
+        height:250px;
     }
 }
 /* certification Section End */
@@ -206,7 +206,7 @@ text-align: left;
 }
 @media(max-width:400px){
     .container-education{
-        height:800px;
+        height:700px;
     }
 }
 /* education Section End */
@@ -263,7 +263,7 @@ text-align: left;
 }
 @media(max-width:400px){
     .container-internships{
-        height:2500px;
+        height:2100px;
     }
 }
 /* internship Section End */
