@@ -58,7 +58,11 @@ html, body {
     background-color: #e6b8a2;
 }
 
-
+@media(max-width:600px){
+    .container-skills{
+        height:300px;
+    }
+}
 /* Skill Section End */
 /* -----------------------------------------------------------------------------------------------*/
 /*Name and Title Section Start */
@@ -89,7 +93,11 @@ html, body {
     background-color: #38160d;
 }
 
-
+@media(max-width:600px){
+    .heading{
+        height:300px;
+    }
+}
 /* Name and Title Section End */
 /* -----------------------------------------------------------------------------------------------*/
 /*certification Section Start */
@@ -135,7 +143,14 @@ html, body {
 .arrow-3-bg{
     background-color: #e6b8a2;
 }
-
+@media(max-width:600px){
+    .row-certifications{
+        height:350px;
+    }
+    .carousel-inner,.carousel{
+        width:100%;
+    }
+}
 /* certification Section End */
 /* -----------------------------------------------------------------------------------------------*/
 /*education Section Start */
@@ -175,7 +190,11 @@ text-align: left;
     text-shadow:2px 2px 5px #49111c;
 }
 
-
+@media(max-width:600px){
+    .container-education{
+        height:550px;
+    }
+}
 /* education Section End */
 /* -----------------------------------------------------------------------------------------------*/
 /*internship Section Start */
@@ -222,6 +241,11 @@ text-align: left;
     border:2px solid green;
     font-weight:bold;
 }
+@media(max-width:600px){
+    .container-internships{
+        height:1850px;
+    }
+}
 /* internship Section End */
 /* -----------------------------------------------------------------------------------------------*/
 /*contact Section Start */
@@ -236,7 +260,23 @@ text-align: left;
     color:#49111c;
     text-shadow:2px 2px 5px #49111c;
 }
+@media(max-width:600px){
+    .container-contact{
+        text-align: center;
+    }
+    .contact-heading-left{
+        color:#763a00;
+        font-size: 25px;
+        text-shadow:none;
+    }
+    .container-left{
+        border-top:2px dotted #5c3324;
+        padding-top:50px;
+    }
+
+}
 /* contact Section End */
+/* ----------------------------------------------------------------------------------------------- */
 /* footer Section */
 .special-color-dark{
     background-color:#2f1000 !important;
@@ -271,7 +311,7 @@ footer.page-footer .footer-copyright{
 
 .site-footer .social-icons
 {
-  text-align:right
+  text-align:right;
 }
 .site-footer .social-icons a
 {
@@ -285,19 +325,19 @@ footer.page-footer .footer-copyright{
 }
 .copyright-text
 {
-  margin:0
+  margin:0;
 }
 
 .social-icons
 {
   padding-left:0;
   margin-bottom:0;
-  list-style:none
+  list-style:none;
 }
 .social-icons li
 {
   display:inline-block;
-  margin-bottom:4px
+  margin-bottom:4px;
 }
 
 .social-icons a{
@@ -344,6 +384,11 @@ footer.page-footer .footer-copyright{
   color:#05aae6;
   background-color:rgb(210, 242, 255) !important;
   text-shadow:1px 1px black;
+}
+@media(max-width:600px){
+    .site-footer .social-icons{
+        text-align: center;
+    }
 }
 /* footer Section End */
 
