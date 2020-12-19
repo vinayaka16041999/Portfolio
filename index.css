@@ -263,7 +263,7 @@ text-align: left;
 }
 @media(max-width:400px){
     .container-internships{
-        height:2100px;
+        overflow-y: auto;
     }
 }
 /* internship Section End */
