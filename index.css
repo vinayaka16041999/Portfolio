@@ -13,17 +13,21 @@ html, body {
     width:100%;
 }
 .nav-link{
-    color:#f5e8e1 !important;
+    color:#d3cab2 !important;
 }
 .navbar-nav .nav-link:hover,.navbar-nav .nav-link::selection{
     background-color:rgba(111, 28, 27, 0.644);
     border-radius: 7px;
     color:#f5e8e1 !important;
 }
-.nav-brand{
+.navbar-light .navbar-brand{
     font-weight: 700;
-    color: #f5e8e1 !important;
+    color:#ffe6a7;
 }
+.navbar-toggler{
+    background-color:#612726;
+}
+
 .navbar-toggler{
     border:none !important;
 }
