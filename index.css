@@ -245,6 +245,11 @@ text-align: left;
     border:2px solid green;
     font-weight:bold;
 }
+@media(max-width:400px){
+    .container-internships{
+        height:1900px;
+    }
+}
 @media(max-width:600px){
     .container-internships{
         height:1850px;
